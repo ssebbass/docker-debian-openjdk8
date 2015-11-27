@@ -4,4 +4,4 @@ FROM debian:stable-backports
 
 MAINTAINER sSeBBaSs
 
-CMD [ "apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jre" ]
+RUN [ "apt-get update && apt-get upgrade -y && apt-get install -y openjdk-8-jre" ]
